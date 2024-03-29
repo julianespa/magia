@@ -1,4 +1,5 @@
 import Carousel from "react-bootstrap/Carousel";
+import BestSellers from "./BestSellers"
 
 function Home() {
     return (
@@ -23,39 +24,10 @@ function Home() {
                 </Carousel>
             </div>
 
-            <section className="bestSellers">
-                <div className="titles">
-                    <div className="line"></div>
-                    <h2>best sellers</h2>
-                    <div className="line"></div>
-                </div>
-                <div className="bs-item-container">
-                    <div>
-                        <div className="bs-item1">
-                            <img src="/home-img/alfajor-salted-caramel-abierto.jpg" alt="" />
-                        </div>
-                        <p>Salted Caramel</p>
-                    </div>
-                    <div>
-                        <div className="bs-item2">
-                            <img src="/home-img/alfajor-frambuesa-abierto.jpg" alt="" />
-                        </div>
-                        <p>Raspberry</p>
-                    </div>
-                    <div>
-                        <div className="bs-item3">
-                            <img src="/home-img/alfajor-chocolate-abierto.jpg" alt="" />
-                        </div>
-                        <p>Chocolate</p>
-                    </div>
-                </div>
-            </section>
+            <BestSellers />
 
             <section className='markets'>
                 <div className="titles">
-                    <div className="line"></div>
-                    <h2>visit us</h2>
-                    <div className="line"></div>
                 </div>
                 <div className="market-cards-container">
                     <div className='market-card'>
@@ -81,11 +53,6 @@ function Home() {
                 </div>
             </section>
 
-            <div className="titles">
-                <div className="line"></div>
-                <h2>reviews</h2>
-                <div className="line"></div>
-            </div>
             <section className='reviews'>
                 <Carousel controls={false}>
                     <Carousel.Item>

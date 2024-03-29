@@ -18,7 +18,8 @@ font-family: 'Satisfy', cursive;
     margin: 0;
     padding: 0;
     font-family: 'Poppins',Helvetica, sans-serif;
-    color: #333
+    color: #333;
+    box-sizing: border-box;
 }
 
 .page {
@@ -173,15 +174,35 @@ a:hover{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 30px;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.bs-item-container .card {
+    width: 30%;
+    height: 200px;
+    overflow: hidden;
+    box-shadow: rgb(0 0 0/.5) 5px 5px 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    gap: 40px;
+    border: 0;
+    position: relative;
+    
 }
 
 
 .bs-item1,.bs-item2,.bs-item3 {
-    width: 350px;
+    width: 250px;
     height: 350px;
     background-size:cover;
     background-position: center;
+    overflow: hidden;
+    rotate: -35deg;
+    translate: -140px 30px;
+    position: absolute
 }
 
 .bs-item1 img,.bs-item2 img,.bs-item3 img {
@@ -194,8 +215,13 @@ a:hover{
 
 }
 
-.bs-item1 img:hover ,.bs-item2 img:hover ,.bs-item3 img:hover {
+.bs-item-container .card:hover img {
     opacity: 1;
+}
+
+.bs-item-container .card:hover p {
+    color:rgb(207, 63, 251);
+    scale: 1.25;
 }
 
 .bestSellers .bs-item2 {
@@ -212,11 +238,13 @@ a:hover{
 }
 
 .bestSellers p {
+    width: 50%;
     font-weight: bold;
-    font-size: 2rem;
-    bottom: 0;
-    margin: 0;
+    font-size: 1.5rem;
     padding: 10px;
+    z-index: 1;
+    letter-spacing: 1px;
+    transition: all .4s;
 }
 
 .markets{
