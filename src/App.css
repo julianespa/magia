@@ -31,6 +31,7 @@ font-family: 'Satisfy', cursive;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    background-position: center;
     min-height: 100vh;
 }
 
@@ -181,35 +182,34 @@ a:hover{
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 50px;
 }
 
 .bs-item-container .card {
-    width: 30%;
+    width: 350px;
     height: 200px;
     overflow: hidden;
-    box-shadow: rgb(0 0 0/.5) 5px 5px 10px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: end;
-    gap: 40px;
-    border: 0;
+    gap: 10%;
     position: relative;
-    
+    border: 0;
+    border-radius: 0;
 }
 
 
 .bs-item1,.bs-item2,.bs-item3 {
-    width: 250px;
-    height: 350px;
+    width: 70%;
+    height: 240%;
     background-size:cover;
     background-position: center;
     overflow: hidden;
-    rotate: -35deg;
-    translate: -140px 30px;
+    rotate: -40deg;
+    translate: -63% 2%;
     position: absolute
 }
 
@@ -271,6 +271,7 @@ a:hover{
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 30px
 }
 
 .market-card {
@@ -283,7 +284,7 @@ a:hover{
     gap: 70px;
 }
 
-.market-card:nth-last-child(1){
+.market-card:nth-child(even){
     flex-direction: row-reverse;
 }
 
@@ -344,16 +345,16 @@ a:hover{
 
 .reviews {
     width: 100%;
-    height: 300px;
+    min-height: 300px;
+    overflow: hidden;
 }
 
 .reviews .carousel {
-    backdrop-filter: blur(200px);
     height: 100%;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid rgb(0,0,0,0.1)
+    align-items: start;
+    justify-content: space-around;
+    background: white;
 }
 
 .reviews .carousel p{
@@ -362,9 +363,24 @@ a:hover{
     width: 100%;
     height: 90%;
     margin: auto;
-    padding: 5% 10%;
+    padding: 2% 10%;
     display: inline-block;
-    
+}
+
+.reviews .carousel svg {
+    margin: 10px 10px 10px 0;
+    fill: #af48e3;
+}
+
+.reviews .carousel .line {
+    width: 40%;
+    border-bottom: #af48e3 1px solid;
+    margin: 15px 0;
+    margin-right: 60%;
+}
+
+.reviews .carousel .line:nth-last-child(1) {
+    margin: 20px 0 50px 60%;
 }
 
 .aboutPage {
@@ -457,8 +473,12 @@ a:hover{
     height: 150px;
     margin: auto;
     margin-top: 30px;
-    backdrop-filter: blur(250px);
+    background: linear-gradient(#af48e3,#ca95e5);
     position: relative;
+}
+
+.footer p {
+    color: #fff;
 }
 
 .footer p {
@@ -469,7 +489,7 @@ a:hover{
     margin: 5px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     .navbarContainer {
         position: relative;
     }
@@ -480,11 +500,9 @@ a:hover{
     }
 
     .navbar.mobile button{
-        color: red;
         background: none;
         border: none;
         width: 50px;
-
     }
 
     .navbar.desktop {
@@ -508,4 +526,51 @@ a:hover{
             opacity: 1;
         }
     }
+
+    .carouselTextContainer {
+        width: 200px;
+        height: 50px;
+    }
+
+    .carouselTextContainer p {
+        font-size: .8rem;
+        position: initial;
+    }
+
+    .carouselTextContainer span {
+        font-size: 1.5rem;
+        position: initial;
+    }
+
+    .market-card img {
+        width: 100px;
+        object-fit: cover;
+    }
+
+    .market-card {
+        gap: 10px;
+        flex-direction: row;
+        height: fit-content;
+    }
+    .market-card:nth-child(even){
+        flex-direction: row-reverse;
+    }
+    .market-info {
+        width: 100%;
+        flex-direction: column;
+        align-items: start;
+        text-align: left;
+        justify-content: space-around;
+        padding: 20px 8%;
+    }
+
+    .market-info .day {
+        font-size: 2rem;
+    }
+
+    .reviews .carousel p{
+        font-size: .8rem;
+    }
+
+    
 }
