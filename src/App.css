@@ -14,10 +14,21 @@ font-family: 'Satisfy', cursive;
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Poppins:ital,wght@0,100;0,200;1,100;1,200&family=Satisfy&display=swap');
+
+@font-face {
+    font-family: "caviar-dreams";
+    src: url("/fonts/Caviar-Dreams/CaviarDreams.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "beckan";
+    src: url("/fonts/beckan/Beckan-Regular.otf") format("opentype");
+}
+
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Poppins',Helvetica, sans-serif;
+    font-family: 'caviar-dreams','Poppins',Helvetica, sans-serif;
     color: #333;
     box-sizing: border-box;
 }
@@ -54,7 +65,6 @@ a:hover{
 }
 
 .titles h2{
-    font-family: 'Satisfy', "cursive";
     font-size: 4rem;
     color: #a2fdff;
     letter-spacing: 2px;
@@ -142,7 +152,6 @@ a:hover{
 }
 
 .carouselTextContainer p {
-    font-family: 'Lato', sans-serif;
     position: absolute;
     font-size: 1.8rem;
     font-weight: 300;
@@ -157,10 +166,10 @@ a:hover{
 
 .carouselTextContainer span{
     font-size: 6rem;
-    font-family: 'Satisfy', cursive;
+    font-family: 'beckan','Satisfy', cursive;
     font-weight: 400;
     position: absolute;
-    right: -50%;
+    right: -60%;
     /* transform: translateX(70%); */
     top: 50%;
     color:#fe87f8;
@@ -248,11 +257,13 @@ a:hover{
 .bestSellers p {
     width: 50%;
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     padding: 10px;
     z-index: 1;
-    letter-spacing: 1px;
+    letter-spacing: 3px;
     transition: all .4s;
+    font-family: 'beckan';
+    color:#d385fa
 }
 
 .markets{
@@ -533,12 +544,12 @@ a:hover{
     }
 
     .carouselTextContainer p {
-        font-size: .8rem;
+        font-size: 1rem;
         position: initial;
     }
 
     .carouselTextContainer span {
-        font-size: 1.5rem;
+        font-size: 2rem;
         position: initial;
     }
 
