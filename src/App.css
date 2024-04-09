@@ -356,8 +356,13 @@ a:hover{
 
 .reviews {
     width: 100%;
-    min-height: 300px;
+    min-height: 350px;
     overflow: hidden;
+    background: #fff;
+}
+
+.reviews .carousel-inner {
+    width: 100%;
 }
 
 .reviews .carousel {
