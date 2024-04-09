@@ -1,5 +1,6 @@
 import Carousel from "react-bootstrap/Carousel";
 import BestSellers from "./BestSellers"
+import Markets from "./Markets";
 
 function Home() {
     return (
@@ -26,30 +27,7 @@ function Home() {
 
             <BestSellers />
 
-            <section className='markets'>
-                <div className="market-cards-container">
-                    <div className='market-card'>
-                        <img src="/home-img/chocolate-banado.jpg" alt="" />
-                        <div className="market-info">
-                            <h3>WESTEND</h3>
-                            <p className='day'>Saturdays</p>
-                            <p className='market-name'>At  <a href="https://goodwillprojects.com.au/markets/west-end/" target='_blank' rel='noreferrer'>West End Markets</a></p>
-                            <p className='address'>Montague Road & Jane Street, West End QLD</p>
-                            <p className='time'>6 am to 1 pm</p>
-                        </div>
-                    </div>
-                    <div className='market-card'>
-                        <img src="/home-img/chocolate-dip.jpg" alt="" />
-                        <div className="market-info">
-                            <h3>NUNDAH</h3>
-                            <p className='day'>Sundays</p>
-                            <p className='market-name'>At  <a href="http://www.nundahmarkets.com.au/" target="_blank" rel="noreferrer">Nundah Markets</a></p>
-                            <p className='address'>Station St, Nundah QLD</p>
-                            <p className='time'>6 am to 2 pm</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
+            <Markets />
 
             <section className='reviews'>
                 <Carousel controls={false}>
