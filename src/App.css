@@ -119,6 +119,7 @@ a:hover{
     align-items: center;
     justify-content: center;
     width: 80%;
+    gap: 30px
 }
 
 .carousel {
@@ -131,7 +132,6 @@ a:hover{
 
 .carouselContainer {
     position: relative;
-    margin-bottom: 30px;
 }
 
 .carouselTextContainer {
@@ -179,7 +179,6 @@ a:hover{
 
 
 .bestSellers {
-    margin: 25px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -270,8 +269,6 @@ a:hover{
 
 .markets{
     width: 100%;
-    margin-top: 30px;
-    margin-bottom: 30px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -280,7 +277,6 @@ a:hover{
 
 .market-cards-container {
     width: 100%;
-    margin-top: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -291,10 +287,9 @@ a:hover{
     width: 100%;
     height: 250px;
     color: #fff;
-    margin: 30px;
     display: flex;
     flex-direction: row;
-    gap: 70px;
+    gap: 30px;
 }
 
 .market-card:nth-child(even){
