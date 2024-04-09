@@ -11,7 +11,7 @@ function Home() {
                     <Carousel.Item>
                         <div className='carouselTextContainer'>
                             <div>
-                                <p> LOVE that you can </p><span>taste</span>
+                                <p> <span>LOVE</span> that you can<span>TASTE</span></p>
                             </div>
                         </div>
                         <img src='/home-img/alfajor-frambuesa-portada.jpg' alt='' />

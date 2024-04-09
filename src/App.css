@@ -156,25 +156,24 @@ a:hover{
     font-size: 1.8rem;
     font-weight: 300;
     top: 50%;
-    left: 28%;
-    transform: translateY(-50%);
+    left: 15%;
+    translate: 0 -50%;
     margin: 0;
     text-wrap: nowrap;
     line-height: 1.5;
     letter-spacing: 1px;
+    vertical-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
 }
 
 .carouselTextContainer span{
-    font-size: 6rem;
+    font-size: 7rem;
     font-family: 'beckan','Satisfy', cursive;
     font-weight: 400;
-    position: absolute;
-    right: -60%;
-    /* transform: translateX(70%); */
-    top: 50%;
     color:#fe87f8;
-    transform: translateY(-48%);
-    
 }
 
 
@@ -191,7 +190,7 @@ a:hover{
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap;
     gap: 50px;
 }
@@ -318,7 +317,7 @@ a:hover{
 .market-info h3{
     position: absolute;
     top: auto;
-    left: -13%;
+    left: -2%;
     font-size: 300px;
     text-wrap: nowrap;
     color: #af48e3;
@@ -577,6 +576,7 @@ a:hover{
     margin: auto;
     text-align: center;
     font-size: .8rem;
+    padding: 10px;
 }
 
 @media (max-width: 800px) {
@@ -624,12 +624,18 @@ a:hover{
 
     .carouselTextContainer p {
         font-size: 1rem;
-        position: initial;
     }
 
     .carouselTextContainer span {
         font-size: 2rem;
-        position: initial;
+    }
+
+    .bs-item-container .card {
+        width: 100%;
+    }
+
+    .bs-item1,.bs-item2,.bs-item3 {
+        translate: -60% 4.5%
     }
 
     .market-card img {

@@ -34,7 +34,7 @@ const Markets = () => {
                         </div>
                     </div>
                     <div className='market-card'>
-                        <img src="/home-img/chocolate-banado.jpg" alt="" />
+                        <img src="/home-img/chocolate-dip.jpg" alt="" />
                         <div className="market-info">
                             <h3>PICKUP</h3>
                             <p className='day'>Pick Up</p>
