@@ -209,6 +209,9 @@ a:hover{
     border-radius: 0;
 }
 
+.bs-item-container .card p {
+    text-transform: uppercase;
+}
 
 .bs-item1,.bs-item2,.bs-item3 {
     width: 70%;
@@ -218,7 +221,7 @@ a:hover{
     overflow: hidden;
     rotate: -40deg;
     translate: -63% 2%;
-    position: absolute
+    position: absolute;
 }
 
 .bs-item1 img,.bs-item2 img,.bs-item3 img {
@@ -256,7 +259,7 @@ a:hover{
 .bestSellers p {
     width: 50%;
     font-weight: bold;
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     padding: 10px;
     z-index: 1;
     letter-spacing: 3px;
