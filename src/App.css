@@ -420,6 +420,13 @@ a {
     
 }
 
+.aboutPage .bio span {
+    color: #d385fa;
+    font-family: beckan,Arial, Helvetica, sans-serif;
+    letter-spacing: 3px;
+    font-size: 3rem;
+}
+
 .aboutPage img{
     width: 200px;
     height: 200px;
@@ -433,12 +440,6 @@ a {
  width: 100%;
  font-size: 1rem;
  color: rgb(32, 32, 32)
-}
-
-.contactPage{
-    width: 80%;
-    margin: auto;
-    
 }
 
 .aboutPage .goal {
@@ -483,6 +484,12 @@ a {
     background-color: #8cd65d;
     scale: 1.1;
     transition: all .3s;
+}
+
+.contactPage{
+    width: 80%;
+    margin: auto;
+    
 }
 
 .contactPage section:nth-child(1){

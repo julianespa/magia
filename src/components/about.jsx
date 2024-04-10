@@ -8,7 +8,7 @@ function About() {
                     <article>
                         <img src="about/bioimg.jpg" alt="logo magia bakery" />
                         <p>
-                            Hey there! I´m Vicky & this is my sweet dream come true: MAGIA.
+                            Hey there! I´m Vicky & this is my sweet dream come true: <span>MAGIA.</span>
                         </p>
                         <p>
                             A forever sweet tooth & pastry lover, that has been self teaching herself through all things sweet & wants to share them with you.
