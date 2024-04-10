@@ -12,7 +12,8 @@ const Contact = () => {
             <main className="contactPage">
                 <section>
                     <h1>We would love to hear about you!</h1>
-                    <h2>Contact us through our social media or via e-mail</h2>
+                    <p>Contact us through our social media or via e-mail</p>
+                    <p>For Product details, orders, catering options and more...</p>
                     <div className="contactIcons">
                         <a href="https://www.instagram.com/magia.bycoky/" target="_blank" rel="noreferrer">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16">

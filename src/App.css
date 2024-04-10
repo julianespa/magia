@@ -469,18 +469,18 @@ a {
     margin: 0;
 }
 
-.aboutPage button {
+.aboutPage button, .products button {
     margin: 30px;
     padding: 6px 10px;
     border: none;
     background: #d385fa;
 }
 
-.aboutPage button a {
+.aboutPage button a, .products button a {
     color: #fff;
 }
 
-.aboutPage button:hover{
+.aboutPage button:hover, .products button:hover{
     background-color: #8cd65d;
     scale: 1.1;
     transition: all .3s;
@@ -489,11 +489,12 @@ a {
 .contactPage{
     width: 80%;
     margin: auto;
+    margin-top: 50px;
     
 }
 
 .contactPage section:nth-child(1){
-    backdrop-filter: blur(300px);
+    background: #fff;
     padding: 30px;
 }
 
@@ -508,7 +509,7 @@ a {
 }
 
 .contactIcons a svg {
-    width: 60px;
+    width: 40px;
     transition: all .2s;
 }
 
@@ -521,7 +522,7 @@ a {
 .galery {
     display: flex;
     flex-wrap: wrap;
-    margin: 20px 0;
+    margin: 50px 0;
 }
 
 .contactPage .galery img {
@@ -529,6 +530,51 @@ a {
     aspect-ratio: 1;
     object-fit: cover;
     flex: 1 0 23%;
+}
+
+.products {
+    width: 80%;
+    min-height: 300px;
+    margin: auto;
+    margin-top: 50px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding: 5%;
+}
+
+.products img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+.products .img {
+    position: relative
+}
+
+.products .img::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border-top: #8cd65d 5px solid;
+    border-right: #a2fdff 5px solid;
+    border-bottom: #af48e3 5px solid;
+    border-left: #ffde5b 5px solid;
+    animation: logoSpin infinite 2s ease-in-out;
+}
+
+@keyframes logoSpin {
+    0% {
+        rotate: 0
+    }
+    100% {
+        rotate: 360deg
+    }
 }
 
 .footer {

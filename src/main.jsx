@@ -9,6 +9,7 @@ import Home from './components/Home.jsx'
 import ProductDetails, {loader as productLoader} from './components/ProductDetails.jsx'
 import About from './components/about.jsx'
 import Contact from "./components/Contact.jsx"
+import Products from './components/Products.jsx'
 
 const router = createBrowserRouter([
   {
@@ -29,7 +30,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/products",
-        element: <h1>Products page</h1>,
+        element: <Products />,
       },
       {
         path: "/products/:id",
