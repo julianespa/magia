@@ -51,7 +51,7 @@ a {
     text-decoration: none;
 }
 
-a:hover{
+.navbar a:hover{
     opacity: .5;
 }
 
@@ -399,41 +399,37 @@ a:hover{
 
 .aboutPage {
     margin:auto;
+    margin-top: 30px;
     width: 80%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: start;
+    gap: 50px;    
+}
+
+.aboutPage .bio article {
+    width: 100%;
+    min-height: 400px;
+    background-color: #fff;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
     
 }
 
-.aboutPage div{
-    display:flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    width:100%;
-    backdrop-filter: blur(200px);
-    padding-left: 100px;
-    margin: 20px 0;
-    border-radius: 30px;
-    overflow: hidden;
-}
-
-.aboutPage :nth-child(n) {
-    flex-direction: row-reverse;
-}
-
 .aboutPage img{
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     object-fit: cover;
+    margin: auto;
 }
 
 .aboutPage p{
- width: 60%;
- font-size: 1.5rem;
- font-weight: bold;
+ width: 100%;
+ font-size: 1rem;
  color: rgb(32, 32, 32)
 }
 
@@ -441,6 +437,50 @@ a:hover{
     width: 80%;
     margin: auto;
     
+}
+
+.aboutPage .goal {
+    width: 100%;
+    min-height: 200px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+.goal img {
+    clip-path: circle();
+    margin: 30px;
+}
+
+.goal h2 {
+    font-family: "beckan",Arial, Helvetica, sans-serif;
+    letter-spacing: 3px;
+    font-size: 4rem;
+    color: #d385fa;
+} 
+
+.goal p {
+    padding: 2% 5%;
+    margin: 0;
+}
+
+.goal button {
+    margin: 30px;
+    padding: 6px 10px;
+    border: none;
+    background: #d385fa;
+}
+
+.goal button a {
+    color: #fff;
+}
+
+.goal button:hover{
+    background-color: #8cd65d;
+    scale: 1.1;
+    transition: all .3s;
 }
 
 .contactPage section:nth-child(1){
