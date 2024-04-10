@@ -565,7 +565,7 @@ a {
     border-right: #a2fdff 5px solid;
     border-bottom: #af48e3 5px solid;
     border-left: #ffde5b 5px solid;
-    animation: logoSpin infinite 2s ease-in-out;
+    animation: logoSpin infinite 3s linear;
 }
 
 @keyframes logoSpin {
