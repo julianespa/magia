@@ -6,7 +6,7 @@ function About() {
             <div className="aboutPage">
                 <main className="bio">
                     <article>
-                        <img src="logoMagia.jpg" alt="logo magia bakery" />
+                        <img src="about/bioimg.jpg" alt="logo magia bakery" />
                         <p>
                             Hey there! I´m Vicky & this is my sweet dream come true: MAGIA.
                         </p>
