@@ -19,6 +19,9 @@ function About() {
                         <p>
                             Do you have a special occasion? We are here for you! We´d love to make the most beautiful & original piece for you to share, give as a gift for someone you love (yourself included, of course) & create a sweet memory.
                         </p>
+                        <button>
+                            <NavLink to={"/contact"}>Get in touch</NavLink>
+                        </button>
                     </article>
                 </main>
 

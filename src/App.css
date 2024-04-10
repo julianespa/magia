@@ -468,18 +468,18 @@ a {
     margin: 0;
 }
 
-.goal button {
+.aboutPage button {
     margin: 30px;
     padding: 6px 10px;
     border: none;
     background: #d385fa;
 }
 
-.goal button a {
+.aboutPage button a {
     color: #fff;
 }
 
-.goal button:hover{
+.aboutPage button:hover{
     background-color: #8cd65d;
     scale: 1.1;
     transition: all .3s;
