@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom"
 const Products = () => {
     return (
         <main className="products">
-            <h1>Our Products Page</h1>
+            <h1>Our Shop Page</h1>
             <p>This section is not ready yet. Contact us for Product details</p>
             <button>
                 <NavLink to={"/contact"}>Get in touch</NavLink>

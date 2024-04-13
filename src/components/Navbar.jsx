@@ -27,7 +27,7 @@ function Navbar() {
                         <NavLink to={`/contact`} onClick={toggleMenu}>Contact</NavLink>
                         <a href="https://www.instagram.com/magia.bycoky/" onClick={toggleMenu} target="_blank" rel='noopener noreferrer'>Instagram</a>
                         <a href="https://www.facebook.com/magia.bycoky/" onClick={toggleMenu} target="_blank" rel='noopener noreferrer'>Facebook </a>
-                        <NavLink to={`/products`} onClick={toggleMenu}>Products</NavLink>
+                        <NavLink to={`/shop`} onClick={toggleMenu}>Shop</NavLink>
                     </div>
                 )}
 
@@ -38,7 +38,7 @@ function Navbar() {
                     <img className="logoNavbar" src="/logoMagia.jpg" alt="logo magia" />
                     <a href="https://www.instagram.com/magia.bycoky/" target="_blank" rel='noopener noreferrer'>Instagram</a>
                     <a href="https://www.facebook.com/magia.bycoky/" target="_blank" rel='noopener noreferrer'>Facebook </a>
-                    <NavLink to={`/products`}>Products</NavLink>
+                    <NavLink to={`/shop`}>Shop</NavLink>
                 </div>
 
             </>

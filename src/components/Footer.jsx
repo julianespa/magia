@@ -10,7 +10,7 @@ function Footer() {
                     <NavLink to={`/`}>Home</NavLink>
                     <NavLink to={`/about`}>About</NavLink>
                     <NavLink to={`/contact`}>Contact</NavLink>
-                    <NavLink to={`/products`}>Products</NavLink>
+                    <NavLink to={`/shop`}>Shop</NavLink>
                 </div>
                 <div id="footer-markets">
                     <h5>Markets</h5>
@@ -37,6 +37,7 @@ function Footer() {
                 </div>
                 <div className="footer-day">
                     <h5>Pick Up</h5>
+                    <p>Prior Order</p>
                     <p className="market-name">Magia Bakery</p>
                     <p>166 Wickham Terrace</p>
                 </div>
