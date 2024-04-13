@@ -6,17 +6,17 @@ function Footer() {
         <section className="footer">
             <div className="footer-content">
                 <div id="links">
-                    <h5>Magia Bakery</h5>
+                    <h3>Magia Bakery</h3>
                     <NavLink to={`/`}>Home</NavLink>
                     <NavLink to={`/about`}>About</NavLink>
                     <NavLink to={`/contact`}>Contact</NavLink>
                     <NavLink to={`/shop`}>Shop</NavLink>
                 </div>
                 <div id="footer-markets">
-                    <h5>Markets</h5>
+                    <h3>Markets</h3>
                     <div className="footer-markets-info">
                         <div className="footer-day">
-                            <h6>Saturdays</h6>
+                            <h4>Saturdays</h4>
                             <div>
                                 <p className="market-name">West End Markets</p>
                                 <p>Montague Road & Jane Street, West End QLD</p>
@@ -27,7 +27,7 @@ function Footer() {
                             </div>
                         </div>
                         <div className="footer-day">
-                            <h6>Sundays</h6>
+                            <h4>Sundays</h4>
                             <div>
                                 <p className="market-name">Nundah Markets</p>
                                 <p>Station St, Nundah QLD</p>
@@ -36,13 +36,13 @@ function Footer() {
                     </div>
                 </div>
                 <div className="footer-day">
-                    <h5>Pick Up</h5>
+                    <h3>Pick Up</h3>
                     <p>Prior Order</p>
                     <p className="market-name">Magia Bakery</p>
                     <p>166 Wickham Terrace</p>
                 </div>
                 <div className="d-flex flex-column">
-                    <h5>Social Media</h5>
+                    <h3>Social Media</h3>
                     <a href="https://www.instagram.com/magia.bycoky/" target="_blank" rel='noopener noreferrer'>Instagram</a>
                     <a href="https://www.facebook.com/magia.bycoky/" target="_blank" rel='noopener noreferrer'>Facebook </a>
                     <a href="https://www.tiktok.com/@magia.by.coky?_t=8lOPHruQCno&_r=1" target="_blank" rel='noopener noreferrer'>Tik Tok </a>
