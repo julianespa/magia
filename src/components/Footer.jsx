@@ -45,6 +45,7 @@ function Footer() {
                     <h5>Social Media</h5>
                     <a href="https://www.instagram.com/magia.bycoky/" target="_blank" rel='noopener noreferrer'>Instagram</a>
                     <a href="https://www.facebook.com/magia.bycoky/" target="_blank" rel='noopener noreferrer'>Facebook </a>
+                    <a href="https://www.tiktok.com/@magia.by.coky?_t=8lOPHruQCno&_r=1" target="_blank" rel='noopener noreferrer'>Tik Tok </a>
                 </div>
             </div>
             <p>All rights reserved. © {year}</p>

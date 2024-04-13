@@ -10,6 +10,8 @@ import ProductDetails, {loader as productLoader} from './components/ProductDetai
 import About from './components/about.jsx'
 import Contact from "./components/Contact.jsx"
 import Products from './components/Products.jsx'
+import Findus from './components/FindUs.jsx'
+import Faqs from './components/Faqs.jsx'
 
 const router = createBrowserRouter([
   {
@@ -33,9 +35,17 @@ const router = createBrowserRouter([
         element: <Products />,
       },
       {
-        path: "/products/:id",
+        path: "/shop/:id",
         element: <ProductDetails/>,
         loader: productLoader
+      },
+      {
+        path:"/findus",
+        element: <Findus />
+      },
+      {
+        path: "/faqs",
+        element: <Faqs />
       }
     ]
   }

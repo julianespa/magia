@@ -455,7 +455,8 @@ a {
 .aboutPage p{
  width: 100%;
  font-size: 1rem;
- color: rgb(32, 32, 32)
+ color: rgb(32, 32, 32);
+ padding: 0 30px;
 }
 
 .aboutPage .goal {
@@ -773,6 +774,10 @@ a {
 
     .market-info .day {
         font-size: 2rem;
+    }
+
+    .markets h2 {
+        font-size: 3rem;
     }
 
     .reviews .carousel p{

@@ -40,7 +40,7 @@ const Markets = () => {
                             <h3>PICKUP</h3>
                             <p className='day'>Pick Up <span>(prior order)</span></p>
                             <p className='market-name'>At  <a href="https://www.instagram.com/magia.bycoky/" target='_blank' rel='noreferrer'>Magia Bakery</a></p>
-                            <p className='address'>166 Wickham Terrace</p>
+                            <p className='address'>771 Stanley St. Wooloongabba</p>
                             <p className='time'>6 am to 2 pm</p>
                         </div>
                     </div>
