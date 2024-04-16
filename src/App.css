@@ -8,27 +8,24 @@ naranja : "#eea547",
 rosa : "#e794be",
 lila : "#ca95e5" 
 
-font-family: 'Lato', sans-serif;
-font-family: 'Poppins', sans-serif;
-font-family: 'Satisfy', cursive;
 */
-
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Poppins:ital,wght@0,100;0,200;1,100;1,200&family=Satisfy&display=swap');
 
 @font-face {
     font-family: "caviar-dreams";
     src: url("/fonts/Caviar-Dreams/CaviarDreams.ttf") format("truetype");
+    font-display: "fallback";
 }
 
 @font-face {
     font-family: "beckan";
     src: url("/fonts/beckan/Beckan-Regular.otf") format("opentype");
+    font-display: "fallback";
 }
 
 *{
     margin: 0;
     padding: 0;
-    font-family: 'caviar-dreams','Poppins',Helvetica, sans-serif;
+    font-family: 'caviar-dreams',Helvetica, sans-serif;
     color: #333;
     box-sizing: border-box;
 }
@@ -171,7 +168,7 @@ a {
 
 .carouselTextContainer span{
     font-size: 7rem;
-    font-family: 'beckan','Satisfy', cursive;
+    font-family: 'beckan', cursive;
     font-weight: 400;
     color:#fe87f8;
 }
@@ -213,13 +210,13 @@ a {
 }
 
 .bs-item1,.bs-item2,.bs-item3 {
-    width: 70%;
-    height: 240%;
+    width: 130%;
+    height: 130%;
     background-size:cover;
     background-position: center;
     overflow: hidden;
-    rotate: -40deg;
-    translate: -63% 2%;
+    rotate: 50deg;
+    translate: 2% 20%;
     position: absolute;
 }
 
@@ -247,7 +244,7 @@ a {
 }
 
 .bestSellers .bs-item1 {
-    background-image: url("/home-img/alfajor-salted-caramel.jpg");
+    background-image: url("/home-img/Alfajor maicena 1.jpg");
 }
 
 .bestSellers .bs-item3 {
@@ -614,7 +611,7 @@ a {
     padding: 20px;
 }
 
-.footer-content h5 {
+.footer-content h3 {
     color: #fff;
     text-decoration:underline 2px #8cd65d;
     text-underline-offset: 5px;
@@ -671,7 +668,7 @@ a {
     border-right: #d385fa 1px solid;
 }
 
-.footer-day h6 {
+.footer-day h4 {
     color: #fff;
     font-size: 1.2rem;
     text-decoration: underline #ffde5b 2px;
@@ -747,7 +744,8 @@ a {
     }
 
     .bs-item1,.bs-item2,.bs-item3 {
-        translate: -60% 4.5%
+        translate: -2% 15%;
+        height: 115%;
     }
 
     .market-card img {

@@ -4,9 +4,9 @@ const BestSellers = () => {
             <div className="bs-item-container">
                 <div className="card">
                     <div className="bs-item1">
-                        <img src="/home-img/alfajor-salted-caramel-abierto.jpg" alt="" />
+                        <img src="/home-img/Alfajor Maicena abierto 1.jpg" alt="vanilla melt alfajor" />
                     </div>
-                    <p>Salted Caramel</p>
+                    <p>Vanilla Melt</p>
                 </div>
                 <div className="card">
                     <div className="bs-item2">
